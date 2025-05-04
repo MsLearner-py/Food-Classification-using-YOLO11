@@ -36,6 +36,11 @@ This dataset contains 16643 food images grouped in 11 major food categories.
 - Training
 - Validation
 
+  <img width="960" alt="image" src="https://github.com/user-attachments/assets/cb870958-7f9f-4279-9e03-dadc96f3fb3e" />
+  <img width="960" alt="image" src="https://github.com/user-attachments/assets/68390ba8-c9c5-4466-9a32-8b25afb1bbc2" />
+
+
+
 ### Each split contains 11 categories of food:
 
 - Bread
@@ -51,3 +56,4 @@ This dataset contains 16643 food images grouped in 11 major food categories.
 - Vegetable-Fruit
 
 # IMPLEMENTATION
+
