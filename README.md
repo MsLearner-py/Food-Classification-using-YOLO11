@@ -51,29 +51,24 @@ This dataset contains 16643 food images grouped in 11 major food categories.
 - Vegetable-Fruit
 ```
 
+
 ```bash
 ├── YOLO-FOOD-CLASSIFICATION FOLDER
-│   ├── custom_dataset
-│         ├── **train** (All 11 classes)
+    ├── custom_dataset
+          ├── **train** (All 11 classes)
           ├── **val** (All 11 classes)
           ├── train.cache (created at runtime)
           ├── val.cache (created at runtime)
-
-│   ├── favicon.ico
-│   ├── images
-│   ├── index.html
-│   ├── js
-│   │   ├── **/*.js
-│   └── partials/template
-├── dist (or build)
-├── node_modules
-├── bower_components (if using bower)
-├── test
-├── Gruntfile.js/gulpfile.js
-├── README.md
-├── package.json
-├── bower.json (if using bower)
-└── .gitignore
+    ├── test_images (dataset of images to test)
+    ├── PythonCode (jupyter notebook)
+    ├── yolo11m-cls.pt/yolo11n.pt... (download the YOLO version)
+    ├── myenv (virtual environment)
+    ├── .ipynb_checkpoints (created at runtime)
+    ├── runs (Output folder)
+          ├── classify
+                    ├── predict
+                    ├── train
+          
 ```
 
 
