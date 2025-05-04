@@ -73,3 +73,5 @@ This dataset contains 16643 food images grouped in 11 major food categories.
 ```
 
 # Let's Code
+1. Create a folder "YOLO-FOOD-CLASSIFICATION" in your computer (in my case it is in D:)
+2. 
