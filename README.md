@@ -25,29 +25,38 @@ Track mode extends YOLO11's object detection capabilities to track objects acros
 Benchmark mode profiles the speed and accuracy of various export formats for YOLO11. This mode provides comprehensive metrics on model size, accuracy (mAP50-95 for detection tasks or accuracy_top5 for classification), and inference time across different formats like ONNX, OpenVINO, and TensorRT. Benchmarking helps you select the optimal export format based on your specific requirements for speed and accuracy in your deployment environment.
 
 # DATASET
-[Dataset link](https://www.kaggle.com/datasets/karakaggle/food11)
+[Dataset link](https://www.kaggle.com/datasets/trolukovich/food11-image-dataset)
 
-DATASET_LABELS = {
-'0': "Bread",
-'1': "Dairy product",
-'2': "Dessert",
-'3': "Egg",
-'4': "Fried food",
-'5': "Meat",
-'6': "Noodles/Pasta",
-'7': "Rice",
-'8': "Seafood",
-'9': "Soup",
-'10': "Vegetable/Fruit"
-}`
-This dataset contains exact 16,643 images divided into Training, Validation and Evaluation categories.
-The dataset was developed by** Ecole Polytechnique Fédérale de Lausanne (EPFL).**
-The naming convention is used, where** ID 0-10 **refers to the 11 food categories respectively.
+This dataset contains 16643 food images grouped in 11 major food categories.
 
-## Content
-Download Size: 1.16 GB
-The data-set follows the following structure:
---- food11 dataset
-| |--- Training (contains 9866 images)
-| |--- Validation (contains 3430 images)
-| |--- Evaluation (contains 3347 images)
+## There are 3 splits in this dataset:
+
+--evaluation
+
+--training
+
+--validation
+
+Each split contains 11 categories of food:
+
+Bread
+
+Dairy product
+
+Dessert
+
+Egg
+
+Fried food
+
+Meat
+
+Noodles-Pasta
+
+Rice
+
+Seafood
+
+Soup
+
+Vegetable-Fruit
