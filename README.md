@@ -52,6 +52,7 @@ This dataset contains 16643 food images grouped in 11 major food categories.
 ```
 
 # Directory Hierarchy
+
 ```bash
 ├── YOLO-FOOD-CLASSIFICATION FOLDER
     ├── custom_dataset
@@ -71,4 +72,4 @@ This dataset contains 16643 food images grouped in 11 major food categories.
           
 ```
 
-
+# Let's Code
