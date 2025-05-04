@@ -26,18 +26,19 @@ Benchmark mode profiles the speed and accuracy of various export formats for YOL
 
 # DATASET
 [Dataset link](https://www.kaggle.com/datasets/trolukovich/food11-image-dataset)
+Size: 1.19 GB
 
 This dataset contains 16643 food images grouped in 11 major food categories.
 
 ## There are 3 splits in this dataset:
 
---evaluation
+--Evaluation
 
---training
+--Training
 
---validation
+--Validation
 
-Each split contains 11 categories of food:
+### Each split contains 11 categories of food:
 
 Bread
 
