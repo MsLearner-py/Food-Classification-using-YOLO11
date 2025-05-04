@@ -101,12 +101,26 @@ This dataset contains 16643 food images grouped in 11 major food categories.
 
         jupyter notebook
 16. Once jupyter notebook is launched you can see all the folder of YOLO-FOOD-CLASSIFICATION.
-17. Create a new file (in my case it is PythonCode) and run it.
-18. A new folder "runs" will be created.
+17. Create a new file (in my case it is PythonCode)
+
+        pip install ultralytics  
+        pip install --upgrade pip
+
+        from ultralytics import YOLO
+        createdmodel=YOLO("yolo11s-cls.pt")
+        results= createdmodel.train(data="custom_dataset",epochs=8,imgsz=640 )
+
+        #USING PRETRAINED MODEL
+        model_test=YOLO("runs/classify/train/weights/best.pt")
+        results=model_test("test_images", save=True, imgsz=320, conf=0.7)
+        results[0].show()
+
+    
+19. A new folder "runs" will be created.
 
         runs --> classify --> predict and train
-19. In the predict folder you will get the output of the images which we have given to test from "test_images" folder.
-20. In the train folder we will get weights (best.pt and last.pt), args, results, confusion matrixand other inferenced information.
+20. In the predict folder you will get the output of the images which we have given to test from "test_images" folder.
+21. In the train folder we will get weights (best.pt and last.pt), args, results, confusion matrixand other inferenced information.
 
 # Output (in runs folder)
 ![confusion_matrix_normalized](https://github.com/user-attachments/assets/e2cfb7f5-8555-49e7-bac2-6fbe8927f0c5)
