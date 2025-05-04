@@ -82,15 +82,31 @@ This dataset contains 16643 food images grouped in 11 major food categories.
 7. Open Command prompt (cmd) and navigate to the folder "YOLO-FOOD-CLASSIFICATION".
 8. Make sure that python is installed.
 9. Create and activate Virtual environment (myenv): 
-        Step 1: --Installing virtualenv through pip--
+
+       Step 1: --Installing virtualenv through pip--
                pip install virtualenv
    
-        Step-2: --Creating a virtualenv--
+       Step-2: --Creating a virtualenv--
                python -m virtualenv myenv
      
-        Step-3: -- Activate the virtual environment--
+       Step-3: -- Activate the virtual environment--
                myenv\Scripts\activate
 11. Now you will find a new folder "myenv" created in YOLO-FOOD-CLASSIFICATION folder.
-12. In this tutorial we are using "yolo11s-cls.pt" pretrained model of YOLO, which is used for classification. You can download any version of YOLO classification model version from the [link](https://github.com/ultralytics/ultralytics). Keep this downloaded file in YOLO-FOOD-CLASSIFICATION folder.
-13.  
+12. In this tutorial we are using "yolo11s-cls.pt" pretrained model of YOLO, which is used for classification. You can download any version of YOLO classification model version from the [link](https://github.com/ultralytics/ultralytics).
+13. Keep this downloaded file in YOLO-FOOD-CLASSIFICATION folder.
+14. To install jupyter notebook type the command--
+    
+        pip install jupyter notebook
+15. After installation, you can launch Jupyter Notebook with the command--
+
+        jupyter notebook
+16. Once jupyter notebook is launched you can see all the folder of YOLO-FOOD-CLASSIFICATION.
+17. Create a new file (in my case it is PythonCode) and run it.
+18. A new folder "runs" will be created.
+
+        runs --> classify --> predict and train
+19. In the predict folder you will get the output of the images which we have given to test from "test_images" folder.
+20. In the train folder we will get weights (best.pt and last.pt), args, results, confusion matrixand other inferenced information.
+              
+         
    
