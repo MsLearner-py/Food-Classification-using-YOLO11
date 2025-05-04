@@ -84,11 +84,13 @@ This dataset contains 16643 food images grouped in 11 major food categories.
 9. Create and activate Virtual environment (myenv): 
         Step 1: --Installing virtualenv through pip--
                pip install virtualenv
+   
         Step-2: --Creating a virtualenv--
-               python -m virtualenv myenv    
+               python -m virtualenv myenv
+     
         Step-3: -- Activate the virtual environment--
                myenv\Scripts\activate
-10. Now you will find a new folder "myenv" created in YOLO-FOOD-CLASSIFICATION folder.
-11. In this tutorial we are using "yolo11s-cls.pt" pretrained model of YOLO, which is used for classification. You can download any version of YOLO classification model version from the [link](https://github.com/ultralytics/ultralytics). Keep this downloaded file in YOLO-FOOD-CLASSIFICATION folder.
-12.  
+11. Now you will find a new folder "myenv" created in YOLO-FOOD-CLASSIFICATION folder.
+12. In this tutorial we are using "yolo11s-cls.pt" pretrained model of YOLO, which is used for classification. You can download any version of YOLO classification model version from the [link](https://github.com/ultralytics/ultralytics). Keep this downloaded file in YOLO-FOOD-CLASSIFICATION folder.
+13.  
    
