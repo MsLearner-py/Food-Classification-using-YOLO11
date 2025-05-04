@@ -51,7 +51,7 @@ This dataset contains 16643 food images grouped in 11 major food categories.
 - Vegetable-Fruit
 ```
 
-
+# Directory Hierarchy
 ```bash
 ├── YOLO-FOOD-CLASSIFICATION FOLDER
     ├── custom_dataset
