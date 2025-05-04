@@ -26,3 +26,28 @@ Benchmark mode profiles the speed and accuracy of various export formats for YOL
 
 # DATASET
 [Dataset link](https://www.kaggle.com/datasets/karakaggle/food11)
+
+DATASET_LABELS = {
+'0': "Bread",
+'1': "Dairy product",
+'2': "Dessert",
+'3': "Egg",
+'4': "Fried food",
+'5': "Meat",
+'6': "Noodles/Pasta",
+'7': "Rice",
+'8': "Seafood",
+'9': "Soup",
+'10': "Vegetable/Fruit"
+}`
+This dataset contains exact 16,643 images divided into Training, Validation and Evaluation categories.
+The dataset was developed by** Ecole Polytechnique Fédérale de Lausanne (EPFL).**
+The naming convention is used, where** ID 0-10 **refers to the 11 food categories respectively.
+
+## Content
+Download Size: 1.16 GB
+The data-set follows the following structure:
+--- food11 dataset
+| |--- Training (contains 9866 images)
+| |--- Validation (contains 3430 images)
+| |--- Evaluation (contains 3347 images)
