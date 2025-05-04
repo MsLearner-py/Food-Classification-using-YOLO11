@@ -38,14 +38,14 @@ This dataset contains 16643 food images grouped in 11 major food categories.
 
 ### Each split contains 11 categories of food:
 
-Bread
-Dairy product
-Dessert
-Egg
-Fried food
-Meat
-Noodles-Pasta
-Rice
-Seafood
-Soup
-Vegetable-Fruit
+- Bread
+- Dairy product
+- Dessert
+- Egg
+- Fried food
+- Meat
+- Noodles-Pasta
+- Rice
+- Seafood
+- Soup
+- Vegetable-Fruit
