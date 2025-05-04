@@ -77,7 +77,7 @@ This dataset contains 16643 food images grouped in 11 major food categories.
 2. Download the dataset [Dataset link](https://www.kaggle.com/datasets/trolukovich/food11-image-dataset)
 3. Create a folder "custom_dataset" in YOLO-FOOD-CLASSIFICATION folder.
 4. Copy training and validation folder from the downloaded dataset into "custom_dataset" folder. I have renamed training folder as "train" and validation folder as "val".
-5. For the easy execution, I have not copied / considered evaluation folder from the dataset.
+5. For the easy execution, I have not copied / considered evaluation folder from the dataset. So I have only two image folders in custom_dataset.
 6. Create a new folder "test_images" in YOLO-FOOD-CLASSIFICATION. Copy 2 to 3 images of each class to be tested. I have searched the images from browser.
 7. Open Command prompt (cmd) and navigate to the folder "YOLO-FOOD-CLASSIFICATION".
 8. Make sure that python is installed.
@@ -91,6 +91,7 @@ This dataset contains 16643 food images grouped in 11 major food categories.
      
        Step-3: -- Activate the virtual environment--
                myenv\Scripts\activate
+   
 11. Now you will find a new folder "myenv" created in YOLO-FOOD-CLASSIFICATION folder.
 12. In this tutorial we are using "yolo11s-cls.pt" pretrained model of YOLO, which is used for classification. You can download any version of YOLO classification model version from the [link](https://github.com/ultralytics/ultralytics).
 13. Keep this downloaded file in YOLO-FOOD-CLASSIFICATION folder.
@@ -101,7 +102,7 @@ This dataset contains 16643 food images grouped in 11 major food categories.
 
         jupyter notebook
 16. Once jupyter notebook is launched you can see all the folder of YOLO-FOOD-CLASSIFICATION.
-17. Create a new file (in my case it is PythonCode)
+17. Create a new file (in my case it is PythonCode) and execute the cells
 
         pip install ultralytics  
         pip install --upgrade pip
@@ -116,11 +117,12 @@ This dataset contains 16643 food images grouped in 11 major food categories.
         results[0].show()
 
     
-19. A new folder "runs" will be created.
+19. A new folder "runs" will be created. As we have a large dataset to process, it will take a good amount of time to get executed. Running on GPU would be faster. On CPU, in my case it took around 2 hours of time.
 
         runs --> classify --> predict and train
-20. In the predict folder you will get the output of the images which we have given to test from "test_images" folder.
-21. In the train folder we will get weights (best.pt and last.pt), args, results, confusion matrixand other inferenced information.
+    
+21. In the predict folder you will get the output of the images which we have given to test from "test_images" folder.
+22. In the train folder we will get weights (best.pt and last.pt), args, results, confusion matrixand other inferenced information.
 
 # Output (in runs folder)
 ![confusion_matrix_normalized](https://github.com/user-attachments/assets/e2cfb7f5-8555-49e7-bac2-6fbe8927f0c5)
