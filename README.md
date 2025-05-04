@@ -117,7 +117,7 @@ This dataset contains 16643 food images grouped in 11 major food categories.
         results[0].show()
 
     
-19. A new folder "runs" will be created. As we have a large dataset to process, it will take a good amount of time to get executed. Running on GPU would be faster. On CPU, in my case it took around 2 hours of time.
+19. A new folder "runs" will be created. As we have a large dataset to process, it will take a good amount of time to get executed. 
 
         runs --> classify --> predict and train
     
