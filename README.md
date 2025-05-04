@@ -72,6 +72,23 @@ This dataset contains 16643 food images grouped in 11 major food categories.
           
 ```
 
-# Let's Code
-1. Create a folder "YOLO-FOOD-CLASSIFICATION" in your computer (in my case it is in D:)
-2. 
+# Let's Start
+1. Create a folder "YOLO-FOOD-CLASSIFICATION" (in my case it is in D drive)
+2. Download the dataset [Dataset link](https://www.kaggle.com/datasets/trolukovich/food11-image-dataset)
+3. Create a folder "custom_dataset" in YOLO-FOOD-CLASSIFICATION folder.
+4. Copy training and validation folder from the downloaded dataset into "custom_dataset" folder. I have renamed training folder as "train" and validation folder as "val".
+5. For the easy execution, I have not copied / considered evaluation folder from the dataset.
+6. Create a new folder "test_images" in YOLO-FOOD-CLASSIFICATION. Copy 2 to 3 images of each class to be tested. I have searched the images from browser.
+7. Open Command prompt (cmd) and navigate to the folder "YOLO-FOOD-CLASSIFICATION".
+8. Make sure that python is installed.
+9. Create and activate Virtual environment (myenv): 
+        Step 1: --Installing virtualenv through pip--
+               pip install virtualenv
+        Step-2: --Creating a virtualenv--
+               python -m virtualenv myenv    
+        Step-3: -- Activate the virtual environment--
+               myenv\Scripts\activate
+10. Now you will find a new folder "myenv" created in YOLO-FOOD-CLASSIFICATION folder.
+11. In this tutorial we are using "yolo11s-cls.pt" pretrained model of YOLO, which is used for classification. You can download any version of YOLO classification model version from the [link](https://github.com/ultralytics/ultralytics). Keep this downloaded file in YOLO-FOOD-CLASSIFICATION folder.
+12.  
+   
