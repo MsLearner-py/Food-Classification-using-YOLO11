@@ -3,7 +3,7 @@ Ultralytics YOLO11 is the the latest version of the acclaimed real-time object d
 
 ![image](https://github.com/user-attachments/assets/3d1e8650-3e49-49e6-bd3c-35c87b006bbd)
 
-# Modes at a Glance
+## Modes at a Glance
 Understanding the different modes that Ultralytics YOLO11 supports is critical to getting the most out of your models:
 
 **Train mode**: Fine-tune your model on custom or preloaded datasets.
@@ -49,3 +49,5 @@ This dataset contains 16643 food images grouped in 11 major food categories.
 - Seafood
 - Soup
 - Vegetable-Fruit
+
+# IMPLEMENTATION
