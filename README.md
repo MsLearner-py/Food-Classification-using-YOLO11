@@ -32,9 +32,9 @@ This dataset contains 16643 food images grouped in 11 major food categories.
 
 ## There are 3 splits in this dataset:
 
--Evaluation
--Training
--Validation
+- Evaluation
+- Training
+- Validation
 
 ### Each split contains 11 categories of food:
 
