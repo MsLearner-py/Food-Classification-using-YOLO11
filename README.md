@@ -142,13 +142,13 @@ epoch	time	train/loss	metrics/accuracy_top1	metrics/accuracy_top5	val/loss	lr/pg
 ![image](https://github.com/user-attachments/assets/bc3da640-1252-4c1c-9bfc-f051eb87f18c)
 
 
-# Predicted output images:
+# Classified output images:
 
 ![0](https://github.com/user-attachments/assets/f3278888-1729-414c-a67f-3ebacd48aa8d)
 ![10](https://github.com/user-attachments/assets/228fbdaf-39c7-4f18-8b5f-c5437d1ee3b2)
 ![11](https://github.com/user-attachments/assets/529a5718-fe09-4b59-ba18-d68a0d447bfe)
 ![4](https://github.com/user-attachments/assets/857cbfdd-044b-424f-88a7-f94273428b8e)
-![6](https://github.com/user-attachments/assets/04ab1ec1-570a-4c89-8917-7341dbf000f5)
+
 
 
 
