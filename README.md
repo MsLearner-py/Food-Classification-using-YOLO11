@@ -126,6 +126,8 @@ This dataset contains 16643 food images grouped in 11 major food categories.
 22. In the train folder we will get weights (best.pt and last.pt), args, results, confusion matrixand other inferenced information.
 
 # Output (in runs folder)
+
+Read more about [Confusion Matrix] : (https://www.datacamp.com/tutorial/what-is-a-confusion-matrix-in-machine-learning)
 ![confusion_matrix_normalized](https://github.com/user-attachments/assets/e2cfb7f5-8555-49e7-bac2-6fbe8927f0c5)
 ![results](https://github.com/user-attachments/assets/d07d8924-375e-4120-aabc-5a4874b198aa)
 ![confusion_matrix](https://github.com/user-attachments/assets/cfaff543-db7f-4087-8b8f-9403f41ea3c9)
