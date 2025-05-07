@@ -1,4 +1,3 @@
-   ![image](https://github.com/user-attachments/assets/8bd91c82-6a8b-4039-a500-91379274dbb6)
 # Ultralytics YOLO11
 Ultralytics YOLO11 is the the latest version of the acclaimed real-time object detection and image segmentation model. YOLO11 is built on cutting-edge advancements in deep learning and computer vision, offering unparalleled performance in terms of speed and accuracy. Its streamlined design makes it suitable for various applications and easily adaptable to different hardware platforms, from edge devices to cloud APIs.
 
@@ -25,7 +24,7 @@ Track mode extends YOLO11's object detection capabilities to track objects acros
 **Benchmark mode**: Analyze the speed and accuracy of your model in diverse deployment environments.
 Benchmark mode profiles the speed and accuracy of various export formats for YOLO11. This mode provides comprehensive metrics on model size, accuracy (mAP50-95 for detection tasks or accuracy_top5 for classification), and inference time across different formats like ONNX, OpenVINO, and TensorRT. Benchmarking helps you select the optimal export format based on your specific requirements for speed and accuracy in your deployment environment.
 
-# Objective: To classify test_images in different food categories using pre-trained YOLO11 model
+# Objective: To classify test_images in different food categories using pre-trained YOLO11 model   ![image](https://github.com/user-attachments/assets/8bd91c82-6a8b-4039-a500-91379274dbb6)
  
 # DATASET
 [Dataset link](https://www.kaggle.com/datasets/trolukovich/food11-image-dataset)
