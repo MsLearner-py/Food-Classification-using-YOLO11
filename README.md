@@ -158,7 +158,9 @@ epoch	time	train/loss	metrics/accuracy_top1	metrics/accuracy_top5	val/loss	lr/pg
 
 
 
-
+# Acknowledgment
+- This package is powered by [ultralytics YOLO]{https://github.com/ultralytics/ultralytics} for object detection.
+- Special thanks to the open-source community for their contributions.
 
 
 
