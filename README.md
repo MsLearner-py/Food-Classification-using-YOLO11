@@ -36,7 +36,7 @@ This dataset contains 16643 food images grouped in 11 major food categories.
 
 ## There are 3 splits in this dataset:
 ```bash
-├──Evaluation (optional)
+├──Evaluation
 ├──Training
 ├──Validation 
 
@@ -61,7 +61,7 @@ This dataset contains 16643 food images grouped in 11 major food categories.
 ├── YOLO-FOOD-CLASSIFICATION FOLDER
     ├── custom_dataset
           ├── **train** (All 11 classes)
-          ├── **val** (All 11 classes)
+          ├── **val** (All 11 classes)   * We have not considered Evaluation from the dataset
           ├── train.cache (created at runtime)
           ├── val.cache (created at runtime)
     ├── test_images (dataset of images to test)
