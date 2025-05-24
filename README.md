@@ -1,11 +1,15 @@
 # Objective: To classify food images in different food categories using YOLO11 model 🍎🥙🍅🍕🍔🍩
 
 ## Ultralytics YOLO11
+[Reference](https://docs.ultralytics.com/models/yolo11/)
 Ultralytics YOLO11 is the the latest version of the acclaimed real-time object detection and image segmentation model. YOLO11 is built on cutting-edge advancements in deep learning and computer vision, offering unparalleled performance in terms of speed and accuracy. Its streamlined design makes it suitable for various applications and easily adaptable to different hardware platforms, from edge devices to cloud APIs.
 
 ![image](https://github.com/user-attachments/assets/3d1e8650-3e49-49e6-bd3c-35c87b006bbd)
 
-## Modes at a Glance
+[Image source](https://docs.ultralytics.com/models/yolo11/)
+
+## Modes at a Glance 
+
 Understanding the different modes that Ultralytics YOLO11 supports is critical to getting the most out of your models:
 
 **Train mode**: Fine-tune your model on custom or preloaded datasets.
