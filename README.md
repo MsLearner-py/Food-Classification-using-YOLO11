@@ -27,7 +27,7 @@ Track mode extends YOLO11's object detection capabilities to track objects acros
 Benchmark mode profiles the speed and accuracy of various export formats for YOLO11. This mode provides comprehensive metrics on model size, accuracy (mAP50-95 for detection tasks or accuracy_top5 for classification), and inference time across different formats like ONNX, OpenVINO, and TensorRT. Benchmarking helps you select the optimal export format based on your specific requirements for speed and accuracy in your deployment environment.
 
 ![image](https://github.com/user-attachments/assets/4146e3e1-8bf9-49b1-992d-47f4f01b62d5)
-
+[Image source](https://www.researchgate.net/figure/Schematic-representation-of-YOLO11-architecture-This-illustration-highlights-the-key_fig1_388422888)
  
 # DATASET
 [Dataset link](https://www.kaggle.com/datasets/trolukovich/food11-image-dataset)
