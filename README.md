@@ -1,5 +1,177 @@
 # Objective: To classify food images in different food categories using YOLO11 model 🍎🥙🍅🍕🍔🍩
 
+
+# Food Classification using YOLOv1
+
+This repository demonstrates food image classification using the YOLOv1 (You Only Look Once) object detection algorithm. The project provides a pipeline for training, evaluating, and running inference on food images to detect and classify food items.
+
+---
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Requirements](#requirements)
+- [Dataset Preparation](#dataset-preparation)
+- [Project Structure](#project-structure)
+- [Execution](#execution)
+  - [1. Clone the Repository](#1-clone-the-repository)
+  - [2. Install Dependencies](#2-install-dependencies)
+  - [3. Prepare Dataset](#3-prepare-dataset)
+  - [4. Train the Model](#4-train-the-model)
+  - [5. Evaluate the Model](#5-evaluate-the-model)
+  - [6. Inference / Prediction](#6-inference--prediction)
+- [Results](#results)
+- [Troubleshooting](#troubleshooting)
+- [References](#references)
+
+---
+
+## Project Overview
+
+This project applies YOLOv1 to the task of food classification. YOLOv1 is an object detection algorithm that divides images into a grid and predicts bounding boxes and class probabilities for each region. This implementation is focused on food datasets and aims to classify and locate food items in images efficiently.
+
+---
+
+## Requirements
+
+- Python 3.7+
+- CUDA-enabled GPU (recommended for training)
+- PyTorch
+- OpenCV
+- NumPy
+- Matplotlib
+- (Other dependencies as required in `requirements.txt`)
+
+Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Dataset Preparation
+
+1. **Obtain a food image dataset** (e.g., [Food-101](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/)).
+2. **Organize dataset** into appropriate train/test/validation directories if required.
+3. **Annotations** should be in YOLO-compatible format (TXT files with class and bounding box coordinates).
+
+Directory structure example:
+```
+dataset/
+│
+├── images/
+│   ├── train/
+│   ├── val/
+│   └── test/
+│
+└── labels/
+    ├── train/
+    ├── val/
+    └── test/
+```
+
+---
+
+## Project Structure
+
+```
+.
+├── dataset/
+├── models/
+├── outputs/
+├── scripts/
+│   ├── train.py
+│   ├── test.py
+│   └── predict.py
+├── utils/
+├── requirements.txt
+└── README.md
+```
+- `train.py`: Script to train the YOLOv1 model.
+- `test.py`: Script to evaluate the model on test data.
+- `predict.py`: Script to run inference on new images.
+- `models/`: Contains model definitions and weights.
+- `utils/`: Helper functions.
+
+---
+
+## Execution
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/vyasdeepti/Food-Classification-using-YOLO11.git
+cd Food-Classification-using-YOLO11
+```
+
+### 2. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Prepare Dataset
+
+- Place your images and label files in the `dataset/` directory following the structure above.
+
+### 4. Train the Model
+
+```bash
+python scripts/train.py --data_dir dataset/ --epochs 50 --batch_size 16 --save_dir outputs/
+```
+- Adjust epochs, batch size, and data directory as needed.
+
+### 5. Evaluate the Model
+
+```bash
+python scripts/test.py --data_dir dataset/ --weights_path outputs/best_model.pth
+```
+
+### 6. Inference / Prediction
+
+To run inference on a single image:
+```bash
+python scripts/predict.py --image_path path/to/image.jpg --weights_path outputs/best_model.pth
+```
+- Predicted bounding boxes and class labels will be shown or saved as specified.
+
+---
+
+## Results
+
+- Training logs and results will be saved in the `outputs/` directory.
+- Evaluation metrics (e.g., mAP, precision, recall) will be printed to the console and/or saved.
+
+---
+
+## Troubleshooting
+
+- **CUDA Out of Memory:** Reduce batch size or image size.
+- **Incorrect Dataset Format:** Ensure annotations are in YOLO format and the directory structure matches expectations.
+- **Missing Dependencies:** Install all required packages.
+
+---
+
+## References
+
+- [YOLOv1 Paper](https://arxiv.org/abs/1506.02640)
+- [PyTorch YOLO Implementations](https://github.com/eriklindernoren/PyTorch-YOLOv3)
+- [Food-101 Dataset](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/)
+
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Ultralytics YOLO11
 [Reference](https://docs.ultralytics.com/models/yolo11/)
 
