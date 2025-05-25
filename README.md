@@ -1,28 +1,33 @@
 # Objective: To classify food images in different food categories using YOLO11 model 🍎🥙🍅🍕🍔🍩
 
-
 This repository demonstrates food image classification using the YOLOv1 (You Only Look Once) object detection algorithm. The project provides a pipeline for training, evaluating, and running inference on food images to detect and classify food items.
 
----
 
 ## Table of Contents
 
-- [Project Overview](#project-overview)
-- [Requirements](#requirements)
-- [Dataset Preparation](#dataset-preparation)
-- [Project Structure](#project-structure)
-- [Execution](#execution)
-  - [1. Clone the Repository](#1-clone-the-repository)
-  - [2. Install Dependencies](#2-install-dependencies)
-  - [3. Prepare Dataset](#3-prepare-dataset)
-  - [4. Train the Model](#4-train-the-model)
-  - [5. Evaluate the Model](#5-evaluate-the-model)
-  - [6. Inference / Prediction](#6-inference--prediction)
-- [Results](#results)
-- [Troubleshooting](#troubleshooting)
-- [References](#references)
+1. [Objective](#objective-to-classify-food-images-in-different-food-categories-using-yolo11-model-)
+2. [Project Overview](#project-overview)
+3. [Ultralytics YOLO11](#ultralytics-yolo11)
+4. [Modes at a Glance](#modes-at-a-glance)
+5. [Dataset](#dataset)
+    - [Dataset Splits & Categories](#there-are-3-splits-in-this-dataset)
+6. [Directory Hierarchy](#directory-hierarchy)
+7. [Requirements](#requirements)
+8. [Setup & Getting Started](#lets-start)
+    - [1. Create Project Folder](#lets-start)
+    - [2. Download Dataset](#lets-start)
+    - [3. Prepare Dataset](#lets-start)
+    - [4. Setup Virtual Environment](#lets-start)
+    - [5. Install Dependencies](#lets-start)
+    - [6. Download Pretrained Model](#lets-start)
+    - [7. Run Jupyter Notebook](#lets-start)
+    - [8. Training & Inference](#lets-start)
+9. [Results & Output](#output-in-runs-folder)
+10. [Sample Classified Output Images](#classified-output-images)
+11. [Troubleshooting](#troubleshooting)
+12. [References](#references)
+13. [Acknowledgment](#acknowledgment)
 
----
 
 ## Project Overview
 
