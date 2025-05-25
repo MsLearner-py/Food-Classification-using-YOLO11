@@ -196,7 +196,7 @@ Read more about
 ![results](https://github.com/user-attachments/assets/d07d8924-375e-4120-aabc-5a4874b198aa)
 ![confusion_matrix](https://github.com/user-attachments/assets/cfaff543-db7f-4087-8b8f-9403f41ea3c9)
 
-
+```
 epoch	time	train/loss	metrics/accuracy_top1	metrics/accuracy_top5	val/loss	lr/pg0	lr/pg1	lr/pg2
 1	1282.13	1.12327	0.85627	0.9895	0.45432	0.000221973	0.000221973	0.000221973
 2	2637.63	0.61349	0.85773	0.9898	0.47545	0.000389323	0.000389323	0.000389323
@@ -206,6 +206,10 @@ epoch	time	train/loss	metrics/accuracy_top1	metrics/accuracy_top5	val/loss	lr/pg
 6	8026.88	0.31035	0.90554	0.99475	0.30944	0.000254294	0.000254294	0.000254294
 7	9172.25	0.23643	0.92012	0.99679	0.26922	0.000171752	0.000171752	0.000171752
 8	10363.8	0.18238	0.92449	0.99679	0.23753	8.92E-05	8.92E-05	8.92E-05
+
+```
+
+
 ![image](https://github.com/user-attachments/assets/bc3da640-1252-4c1c-9bfc-f051eb87f18c)
 
 
