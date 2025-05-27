@@ -1,3 +1,5 @@
+![Visitor Count](https://profile-counter.glitch.me/vyasdeepti/count.svg)
+
 # Objective: To classify food images in different food categories using YOLO11 model 🍎🥙🍅🍕🍔🍩
 
 This repository demonstrates food image classification using the YOLOv1 (You Only Look Once) object detection algorithm. The project provides a pipeline for training, evaluating, and running inference on food images to detect and classify food items.
@@ -239,7 +241,6 @@ epoch	time	train/loss	metrics/accuracy_top1	metrics/accuracy_top5	val/loss	lr/pg
 - This package is powered by [ultralytics YOLO](https://github.com/ultralytics/ultralytics) for object detection.
 - Special thanks to the open-source community for their contributions.
 
-![Visitor Count](https://profile-counter.glitch.me/vyasdeepti/count.svg)
 
 
               
